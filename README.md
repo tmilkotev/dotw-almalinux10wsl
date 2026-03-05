@@ -21,3 +21,17 @@ TBD Scripts provide environment software setup, update, verification, and revert
 ---
 
 This repository serves as the AlmaLinux WSL substrate layer.
+
+## How to
+
+Execute scritps from powershell
+
+```bash
+wsl -d AlmaLinux-10 -- bash -lc "cd /mnt/d/IT/repos/dotw-integration/dotw-almalinux10wsl && chmod +x setup.sh scripts/*.sh"
+```
+
+Execute scritps via the wrapper "towsl.ps1"
+
+```bash
+wsl -d AlmaLinux-10 -- bash -lc "cd /mnt/d/IT/repos/dotw-integration/dotw-almalinux10wsl && chmod +x setup.sh scripts/*.sh"
+```

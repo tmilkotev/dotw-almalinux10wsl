@@ -1,0 +1,11 @@
+{
+  "base": [
+    "git",
+    "python3-pip",
+    "ansible-core",
+    "dos2unix"
+  ],
+  "devops": [
+    "jq"
+  ]
+}
