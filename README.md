@@ -35,3 +35,4 @@ Execute scritps via the wrapper "towsl.ps1"
 ```bash
 wsl -d AlmaLinux-10 -- bash -lc "cd /mnt/d/IT/repos/dotw-integration/dotw-almalinux10wsl && chmod +x setup.sh scripts/*.sh"
 ```
+# trigger
